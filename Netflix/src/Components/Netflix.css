@@ -31,3 +31,14 @@ img{
     flex-direction: column;
     gap: 20px;
 }
+
+
+.super-hit {
+    color: #46d369;
+    font-weight: bold;
+}
+
+.avrage{
+    color: #ffba08;
+    font-weight: bold;
+}

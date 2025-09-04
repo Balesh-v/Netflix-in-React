@@ -19,7 +19,7 @@ const SeriesCard = ({Element}) =>{
           </div>
           <div className="card-content">
           <h2>Name : {name}</h2>
-          <h3>Rating : {rating}</h3>
+          <h3>Rating : <span className={rating >= 8.5 ? "super-hit" : "avrage" }>{rating}</span></h3>
           <p>Summary : {description}</p>
           <p>Cast : {cast}</p>
           <a href={watch_url} target="_blank">
