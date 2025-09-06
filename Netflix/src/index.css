@@ -39,6 +39,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #211817;
 }
 
 h1 {
@@ -67,8 +68,10 @@ button:focus-visible {
 
 .container {
   max-width: 142rem;
-  padding: 9.9rem 8.4rem ;
+  /* padding: 9.9rem 8.4rem ; */
+  padding: 70px 113.1px 0px 114px;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 .grid {

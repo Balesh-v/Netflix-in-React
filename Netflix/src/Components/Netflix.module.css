@@ -1,0 +1,63 @@
+.card_heading {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0px 0px 90px 0px;
+    color: #ffffff;
+}
+
+.card{
+    /* border: 2px solid #e50914; */
+    border-radius: 10px;
+    padding: 20px;
+    margin: -50px 20px 20px 20px;
+    width: 300px;
+    background-color: #272727;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(255, 250, 250, 0.2);
+    transition: transform 0.2s;
+}
+
+h2{
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border: 1px solid #fffafa;
+}
+
+.card_content {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.super_hit {
+    color: #46d369;
+    font-weight: bold;
+}
+
+.avrage{
+    color: #ffba08;
+    font-weight: bold;
+}
+
+.card_desc{
+    font-size: 0.9rem;
+    color: #d1d1d1;
+    line-height: 1.4;
+    min-height: 150px;
+}
+
+.cast_desc{
+    font-size: 0.8rem;
+    margin-top: 20px; 
+}
